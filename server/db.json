@@ -1,18 +1,45 @@
 {
-    "posts": [
-      { "id": 1,
-       "title": "json-server",
-        "author": "typicode" 
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
     }
-    ],
-    "comments": [
-      { "id": 1, 
-      "body": "some comment", 
-      "postId": 1 
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
     }
-    ],
-    "profile": { 
-        "name": "typicode" 
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstName": "soufian",
+      "lastName": "bouktaib",
+      "email": "adil.dongo@gmail.com",
+      "dob": "2002-10-27T00:00:00.000Z",
+      "gender": "male",
+      "education": "Graduate ",
+      "company": "teos",
+      "experience": 10,
+      "package": 5,
+      "id": 1
     },
-    "employees":[]
-  }
+    {
+      "firstName": "hosni",
+      "lastName": "bk",
+      "email": "adul.moh@gmail.com",
+      "dob": "2003-11-12T00:00:00.000Z",
+      "gender": "male",
+      "education": "Graduate ",
+      "company": "atos",
+      "experience": 10,
+      "package": 18,
+      "id": 2
+    }
+  ]
+}
