@@ -29,7 +29,7 @@ constructor(
   this.empForm=this._fb.group({
     firstName:['', Validators.required],
     lastName:['', Validators.required],
-    email: ['', [Validators.required, Validators.email]], 
+    email: ['', [Validators.required, Validators.email]],
     dob:['', Validators.required],
     gender:['', Validators.required],
     education:['', Validators.required],
@@ -61,7 +61,6 @@ onFormSubmit(){
         next:(val:any)=>{
           this._coreService.openSnackBar('Employee added succesfully','done'),
           this._dialogRef.close(true);
-          
         },
         error:(err:any)=>{
           console.error(err.data);

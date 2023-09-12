@@ -15,7 +15,6 @@ import { CoreService } from './core/core.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  //title = 'crud-app';
   displayedColumns: string[] = [
     'id', 
     'firstName',
@@ -34,13 +33,11 @@ export class AppComponent implements OnInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
-  constructor(private _dialog:MatDialog,private _empService:EmployeeService,private _coreService:CoreService)
-  {}
+  constructor(private _dialog:MatDialog,private _empService:EmployeeService,private _coreService:CoreService){}
 
   ngOnInit():void{
     this.getEmployeeList()
   }
-
   openAddEditEmpForm(){
     const dialogRef= this._dialog.open(EmpAddEditComponent);
     dialogRef.afterClosed().subscribe({
@@ -51,8 +48,6 @@ export class AppComponent implements OnInit {
       }
     })
   };
-
-
   getEmployeeList(){
     this._empService.getEmployeeList().subscribe({
       next:(res)=>{
@@ -63,8 +58,6 @@ export class AppComponent implements OnInit {
       error:console.log,//shorthand
     })
   }
-
-
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
