@@ -17,53 +17,6 @@
     "name": "typicode"
   },
   "employees": [
-    {
-      "firstName": "soufian",
-      "lastName": "bouktaib",
-      "email": "adil.dongo@gmail.com",
-      "dob": "2002-10-27T00:00:00.000Z",
-      "gender": "male",
-      "education": "Graduate ",
-      "company": "teos",
-      "experience": 10,
-      "package": 5,
-      "id": 1
-    },
-    {
-      "firstName": "hosni",
-      "lastName": "bk",
-      "email": "adul.moh@gmail.com",
-      "dob": "2003-11-12T00:00:00.000Z",
-      "gender": "male",
-      "education": "Graduate ",
-      "company": "atos",
-      "experience": 10,
-      "package": 18,
-      "id": 2
-    },
-    {
-      "firstName": "rzreedffvdfdfvdfefddfb",
-      "lastName": "dfgdgdf",
-      "email": "gfdf",
-      "dob": "2023-09-19T23:00:00.000Z",
-      "gender": "male",
-      "education": "Graduate ",
-      "company": "dffgddf",
-      "experience": 10,
-      "package": 20,
-      "id": 3
-    },
-    {
-      "firstName": "teee",
-      "lastName": "efcf",
-      "email": "cdsdfscfdjfhkk",
-      "dob": "2023-09-11T23:00:00.000Z",
-      "gender": "male",
-      "education": "Intermediate",
-      "company": "gfffd",
-      "experience": 10,
-      "package": 20,
-      "id": 4
-    }
+
   ]
 }
